@@ -6,8 +6,14 @@ var str : String = "Hello, playground"
 
 let modernProgrammingLanguage : String = "Swift"
 
-var greeting = str + modernProgrammingLanguage
+var greeting = "\(str) + \(modernProgrammingLanguage)"
 
-// Constants = let. A constant won't be able to has it value changed.
+// CONSTANTS: Constants = let. A constant won't be able to has it value changed.
 
-// You can explic specify the type by adding ": [type]" eg. ": String"
+// TYPE: You can explic specify the type by adding ": [type]" eg. ": String".
+
+// PRINT & PRINTLN: PrintLN adds a line break.
+
+// VARIABLE IN STRING: "\(Variable_Name)".
+
+println("To build an iPhone app we need to learn \(modernProgrammingLanguage)")
